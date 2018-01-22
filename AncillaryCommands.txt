@@ -2,7 +2,7 @@
 Ancillary Commands
 
 
-Manipulators:
+Manipulators::
 
 git-config(1) 
 Get and set repository or global options. 
