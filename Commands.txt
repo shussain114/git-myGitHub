@@ -1,0 +1,11 @@
+git init -> Initialize repository
+git remote add origin "https://github.com/shussain114/git-myGitHub.git"-> add central repository to local repo
+git pull origin master -> pull file from github
+git status -> shwo status of in index  the files in local repo
+git add <name of the filewith extension> -> to add files in index
+git commit -m "adding first commit" -> to aware every1 that you committed the changes to the repo
+git add -A -> to add all files in the repo
+git commit -a ->to commit all files in a repo
+
+
+

@@ -1,0 +1,93 @@
+
+Ancillary Commands
+
+
+Manipulators::
+
+git-config(1) 
+Get and set repository or global options. 
+git-fast-export(1) 
+Git data exporter. 
+git-fast-import(1) 
+Backend for fast Git data importers. 
+git-filter-branch(1) 
+Rewrite branches. 
+git-mergetool(1) 
+Run merge conflict resolution tools to resolve merge conflicts. 
+git-pack-refs(1) 
+Pack heads and tags for efficient repository access. 
+git-prune(1) 
+Prune all unreachable objects from the object database. 
+git-reflog(1) 
+Manage reflog information. 
+git-remote(1) 
+Manage set of tracked repositories. 
+git-repack(1) 
+Pack unpacked objects in a repository. 
+git-replace(1) 
+Create, list, delete refs to replace objects. 
+
+
+Interrogators:
+
+git-annotate(1) 
+Annotate file lines with commit information. 
+git-blame(1) 
+Show what revision and author last modified each line of a file. 
+git-cherry(1) 
+Find commits yet to be applied to upstream. 
+git-count-objects(1) 
+Count unpacked number of objects and their disk consumption. 
+git-difftool(1) 
+Show changes using common diff tools. 
+git-fsck(1) 
+Verifies the connectivity and validity of the objects in the database. 
+git-get-tar-commit-id(1) 
+Extract commit ID from an archive created using git-archive. 
+git-help(1) 
+Display help information about Git. 
+git-instaweb(1) 
+Instantly browse your working repository in gitweb. 
+git-merge-tree(1) 
+Show three-way merge without touching index. 
+git-rerere(1) 
+Reuse recorded resolution of conflicted merges. 
+git-rev-parse(1) 
+Pick out and massage parameters. 
+git-show-branch(1) 
+Show branches and their commits. 
+git-verify-commit(1) 
+Check the GPG signature of commits. 
+git-verify-tag(1) 
+Check the GPG signature of tags. 
+git-whatchanged(1) 
+Show logs with difference each commit introduces. 
+gitweb(1) 
+Git web interface (web frontend to Git repositories). 
+
+
+Interacting with Others
+
+
+These commands are to interact with foreign SCM and with other people via patch over e-mail.
+
+git-archimport(1) 
+Import an Arch repository into Git. 
+git-cvsexportcommit(1) 
+Export a single commit to a CVS checkout. 
+git-cvsimport(1) 
+Salvage your data out of another SCM people love to hate. 
+git-cvsserver(1) 
+A CVS server emulator for Git. 
+git-imap-send(1) 
+Send a collection of patches from stdin to an IMAP folder. 
+git-p4(1) 
+Import from and submit to Perforce repositories. 
+git-quiltimport(1) 
+Applies a quilt patchset onto the current branch. 
+git-request-pull(1) 
+Generates a summary of pending changes. 
+git-send-email(1) 
+Send a collection of patches as emails. 
+git-svn(1) 
+Bidirectional operation between a Subversion repository and Git. 
